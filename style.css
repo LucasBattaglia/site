@@ -1,0 +1,74 @@
+h1 /* Nom d'une ou plusieurs balises html */
+{
+	color: blue; /* Option de balise */
+	text-align: Center;
+}
+
+h1 + p
+{
+	text-align: Center;
+}
+
+.Ouverture /*le point pour des class ou id */
+{
+	color: red;
+}
+
+body
+{
+	background-color: #87CEFA;
+}
+
+figure
+{
+	text-align: Center;
+}
+
+.centre
+{
+	text-align: Center;
+}
+
+.bouton
+{
+	text-decoration: none;
+	font-weight: bold;
+	background-color: yellow;
+	border: 5px yellow outset;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px black;
+	text-decoration: none;
+}
+
+.lien_cacher
+{
+	text-decoration: none;
+	color: black;
+}
+
+footer {
+   left: 0;
+   bottom: 0;
+   height: 250px;
+   background-color: green;
+   color: white;
+   border-radius: 0px 0px 25px 25px ;
+}
+
+
+#conteneur
+{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+div
+{
+	margin: auto;
+}
+
+img
+{
+	margin: 10px;
+}
