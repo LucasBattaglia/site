@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+   	 <title>{S_titre}</title>
+   	 <link href="../style/global.css" rel="stylesheet" type="text/css" />
+    </head>
+    
+    <body background="{u_background}" >
+   	 <table>
+   		 <tr>
+   			 <td>    
+   				 <table class="tableNav" width="20%" align="center">
+   					 <tr id="navBar" height="50px"><td><a class="a_nav"  href="#">Acueil</a></td></tr>
+   					 <tr id="navBar" height="50px"><td><a class="a_nav"  href="#">Présentations</a></td></tr>
+<!-- IF membre -->
+   					 <tr id="navBar" height="50px"><td><a class="a_nav"  href="#">Forum</a></td></tr>
+   					 <tr id="navBar" height="50px"><td><a class="a_nav"  href="#">Upload</a></td></tr>
+<!-- END_IF membre -->
+   					 <tr id="navBar" height="50px"><td><a class="a_nav"  href="#">Projets</a></td></tr>
+   					 <tr id="navBar" height="50px"><td><a class="a_nav"  href="#">Contacts</a></td></tr>
+   					 <tr id="navBar" height="50px"><td><a class="a_nav"  href="#">Vos idées</a></td></tr>
+   				 </table>
+   			 </td>
+   			 <td width="100%">
+   				 <table width="100%" class="conteneur" align=center>
+   					 <tr>
+   						 <td>
+   							 {I.contenu}
+   						 </td>
+   					 </tr>
+   				 </table>
+   			 </td>
+   		 </tr>
+   	 </table>
+    </body>
+</html>
+
