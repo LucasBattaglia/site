@@ -1,4 +1,29 @@
-<footer class="conteneur">
+<?php 
+	$titre = $_POST['titre'];
+?>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Charger le fichier CSS pour mettre en forme ma page -->
+		<link rel="stylesheet" href="style.css">
+		<!-- Titre de l'onglet -->
+		<title>BDE Enigma - Les evenements</title>
+	</head>
+	<body>
+
+		<header>
+			<p><a href="index.html">Revenir au menu d'accueil</a></p>
+			<h1><img src="image/logopng.png" alt="Logo du BDE Enigma">
+			<figcaption>Les evenement du BDE Enigma</figcaption></h1>
+		</header>
+
+		<section>
+			<?php echo($titre); ?>
+		</section>
+		
+		<footer class="conteneur">
 			<div class="element">
 				<a href="https://www.uca.fr/" title="UCA" target="_blank"><img src="image/logo_UCA_Long.png" alt="Logo UCA"></a>
 			</div>
@@ -18,3 +43,6 @@
 
 			<p class="element">© BDE Enigma de Clermont Ferrand. Tous droits réservés.</p>
 		<footer>
+
+	</body>
+</html>
